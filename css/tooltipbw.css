@@ -1,0 +1,21 @@
+#tooltip-container {
+    position: absolute;
+    background-color: rgba(255,255,255,0.85);
+    box-shadow: 3px 3px 3px gray;
+    color: #444444;
+    font-size: 12px;
+    padding: 8px;
+    max-width: 200px;
+    /*top: 160px;*/
+    /*left: 40px;*/
+}
+
+.tooltip-html-source {
+    display: none;
+}
+
+#graphic {
+    /*position: relative;
+    margin-left: -25px;
+    outline: 1px solid black;*/
+}

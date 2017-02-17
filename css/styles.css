@@ -1,0 +1,113 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Sansita:400,800');
+
+
+/* general */
+
+* {
+       margin: 0;
+       padding: 0;
+
+}
+
+/* header */
+header p {
+     width: 1000px;
+     margin: 0 auto;
+}
+
+
+/*  structure  */
+
+#bw{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#front {
+    max-width: 100%;
+    height: 635px;
+    background-image: url(../images/gif.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#page-wrap main {
+      width: 600px;
+      margin: 0 auto;
+}
+
+main h2 {
+     padding: 30px 20px 5px 0;
+}
+
+main h4 {
+     padding: 15px 10px 3px 0;
+}
+
+#Population {
+    padding: 20px;
+    background-color: #e6f3ff;
+}
+
+ul {
+    padding-left: 40px;
+}
+
+
+ul > li
+{
+    color: #3CC3D3;
+    padding: 10px 0 0 0;
+    font-family: 'Sansita', sans-serif;
+}
+
+
+/* typograohy */
+
+h1 {
+    font-family: 'Sansita', sans-serif;
+    font-size: 4em;
+    color: #3CC3D3;
+    text-align: center;
+}
+
+h2 {
+   font-family: 'Sansita', sans-serif;
+   color: #3CC3D3;
+}
+
+h4 {
+   font-family: 'Sansita', sans-serif;
+   color: #3CC3D3;
+}
+
+p{
+    font-family: 'open sans', sans-serif;
+    font-weight: 400;
+}
+
+
+/* footer */
+
+
+
+
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
